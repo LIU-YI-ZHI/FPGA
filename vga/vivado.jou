@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Jan 11 13:43:35 2023
+# Process ID: 34472
+# Current directory: D:/FPGA/homework/vga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32580 D:\FPGA\homework\vga\vga.xpr
+# Log file: D:/FPGA/homework/vga/vivado.log
+# Journal file: D:/FPGA/homework/vga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/homework/vga/vga.xpr
+update_compile_order -fileset sources_1

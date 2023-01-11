@@ -1,0 +1,152 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 34472
+License: Customer
+
+Current time: 	Wed Jan 11 13:43:47 CST 2023
+Time zone: 	Taipei Standard Time (Asia/Taipei)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 2560x1440
+Screen resolution (DPI): 150
+Available screens: 2
+Available disk space: 282 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ASUS
+User home directory: C:/Users/ASUS
+User working directory: D:/FPGA/homework/vga
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.2
+RDI_DATADIR: C:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/FPGA/homework/vga/vivado.log
+Vivado journal file location: 	D:/FPGA/homework/vga/vivado.jou
+Engine tmp dir: 	D:/FPGA/homework/vga/.Xil/Vivado-34472-LAPTOP-IKQBRPMO
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 724 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: D:\FPGA\homework\vga\vga.xpr. Version: Vivado v2019.2 
+// bB (cr):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/FPGA/homework/vga/vga.xpr 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 82 MB (+83462kb) [00:00:07]
+// [Engine Memory]: 683 MB (+565049kb) [00:00:07]
+// [GUI Memory]: 99 MB (+14029kb) [00:00:07]
+// [GUI Memory]: 123 MB (+19925kb) [00:00:07]
+// [Engine Memory]: 719 MB (+1376kb) [00:00:08]
+// [GUI Memory]: 130 MB (+837kb) [00:00:08]
+// WARNING: HEventQueue.dispatchEvent() is taking  2176 ms.
+// Tcl Message: open_project D:/FPGA/homework/vga/vga.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'. 
+// Project name: vga; location: D:/FPGA/homework/vga; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bB (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 732 MB. GUI used memory: 67 MB. Current time: 1/11/23, 1:43:48 PM CST
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA(behavioral) (VGA.vhd)]", 1, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA(behavioral) (VGA.vhd)]", 1, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA(behavioral) (VGA.vhd)]", 1, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("VGA.vhd", 364, 255); // ch (w, cr)
+// Elapsed time: 31 seconds
+selectCodeEditor("VGA.vhd", 334, 198); // ch (w, cr)
+// Elapsed time: 12 seconds
+selectCodeEditor("VGA.vhd", 334, 322); // ch (w, cr)
+selectCodeEditor("VGA.vhd", 266, 101); // ch (w, cr)
+selectCodeEditor("VGA.vhd", 289, 100); // ch (w, cr)
+selectCodeEditor("VGA.vhd", 315, 208); // ch (w, cr)
+selectCodeEditor("VGA.vhd", 317, 326); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("VGA.vhd", 344, 425); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("VGA.vhd", 294, 438); // ch (w, cr)
+selectCodeEditor("VGA.vhd", 294, 440); // ch (w, cr)
+selectCodeEditor("VGA.vhd", 400, 440); // ch (w, cr)
+selectCodeEditor("VGA.vhd", 299, 432); // ch (w, cr)
+// Elapsed time: 66 seconds
+selectCodeEditor("VGA.vhd", 338, 284); // ch (w, cr)
+selectCodeEditor("VGA.vhd", 295, 177); // ch (w, cr)
+selectCodeEditor("VGA.vhd", 319, 403); // ch (w, cr)
+selectCodeEditor("VGA.vhd", 301, 509); // ch (w, cr)
+selectCodeEditor("VGA.vhd", 362, 372); // ch (w, cr)
+// Elapsed time: 44 seconds
+selectCodeEditor("VGA.vhd", 426, 457); // ch (w, cr)
+typeControlKey(null, null, 'z');
+selectCodeEditor("VGA.vhd", 406, 443); // ch (w, cr)
+selectCodeEditor("VGA.vhd", 372, 319); // ch (w, cr)
+// Elapsed time: 14 seconds
+selectCodeEditor("VGA.vhd", 372, 319); // ch (w, cr)
+selectCodeEditor("VGA.vhd", 359, 270); // ch (w, cr)
+// Elapsed time: 13 seconds
+selectCodeEditor("VGA.vhd", 340, 372); // ch (w, cr)
+// Elapsed time: 173 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGA.vhd", 1); // i (h, cr)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (f, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
