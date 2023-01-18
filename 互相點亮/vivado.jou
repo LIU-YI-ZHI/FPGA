@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Jan 18 21:19:40 2023
+# Process ID: 22176
+# Current directory: D:/FPGA/homework/ㄼй헕첝
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29128 D:\FPGA\homework\ㄼй헕첝\double_pingpong.xpr
+# Log file: D:/FPGA/homework/ㄼй헕첝/vivado.log
+# Journal file: D:/FPGA/homework/ㄼй헕첝\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/homework/ㄼй헕첝/double_pingpong.xpr
+update_compile_order -fileset sources_1
